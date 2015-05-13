@@ -34,8 +34,8 @@ class TomiMenu {
 
         $post = get_post($post_id);
 
-        if ($post->post_type == 'nav_menu_item') {
-            return; //Bad things happen if you pass a post that is actually a menu into this function
+        if ($post->post_type != 'page') {
+            return; //Only deal with pages
         }
 
         // Get menus I can add to (do not add sub-menu items if the menu doesn't add top level items)
