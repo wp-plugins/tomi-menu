@@ -4,7 +4,7 @@ Contributors: Tomi Novak
 Tags: menu, navigation, automatic menu, sub-menu, sub-nav, nav
 Requires at least: 3.0.0
 Tested up to: 4.2.2
-Stable tag: 0.1
+Stable tag: 0.1.1
 License: GPLv2
 
 == Description ==
